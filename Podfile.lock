@@ -1,0 +1,44 @@
+PODS:
+  - lottie-ios (4.6.0)
+  - VTAccessibilityIdentifiersMac (1.0.199)
+  - VTComponents (2.0.81)
+  - VTComponentsUI_Mac (1.0.210):
+    - lottie-ios (~> 4.0)
+    - VTAccessibilityIdentifiersMac (~> 1.0.197)
+    - VTComponents (~> 2.0.4)
+    - ZLocationManager (~> 0.1.1)
+    - ZThemeManager (~> 1.1.1)
+  - ZLocationManager (0.1.3):
+    - VTComponents (~> 2.0.49)
+  - ZThemeManager (1.1.5):
+    - ZThemeManager/Theming (= 1.1.5)
+  - ZThemeManager/Theming (1.1.5)
+
+DEPENDENCIES:
+  - VTComponents (~> 2.0.4)
+  - VTComponentsUI_Mac (from `/Users/vignesh-13338-t/Documents/Dev Projects/Trident Repos/VTComponentsUI-macOS`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
+  https://zrepository.zohocorpcloud.in/zohocorp/AppX/Apple/appxpodspecs.git:
+    - VTAccessibilityIdentifiersMac
+    - VTComponents
+    - ZLocationManager
+    - ZThemeManager
+
+EXTERNAL SOURCES:
+  VTComponentsUI_Mac:
+    :path: "/Users/vignesh-13338-t/Documents/Dev Projects/Trident Repos/VTComponentsUI-macOS"
+
+SPEC CHECKSUMS:
+  lottie-ios: 8f959969761e9c45d70353667d00af0e5b9cadb3
+  VTAccessibilityIdentifiersMac: df316d21bdc239aea0e4fcbbc917cdd078d52fe8
+  VTComponents: e32e9e0280dc357e35f51746a9c211d25f4162db
+  VTComponentsUI_Mac: 07cfc02bdc8588a7f22ac2340c7230b77a64db1d
+  ZLocationManager: a4949378b838537d7d78fab0c0ee3a585c639d55
+  ZThemeManager: 20cf9c992af650860da758a6aaa97697b535d7ce
+
+PODFILE CHECKSUM: 6770a95abb069c130add72c292443545fb3f6c04
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9C5422E35C68157F838CC3 /* Pods_TabletEventInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */; };
+		6D4A78FFB5969CA23AD98298 /* Pods_TabletEventInspectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */; };
+		A02312B81E1DAA6281E9C0FE /* Pods_TabletEventInspectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2A0DC52F841B5B0044F812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2A0DAE2F841B580044F812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2A0DB52F841B580044F812;
+			remoteInfo = TabletEventInspector;
+		};
+		BE2A0DCF2F841B5B0044F812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2A0DAE2F841B580044F812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2A0DB52F841B580044F812;
+			remoteInfo = TabletEventInspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorUITests.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorUITests/Pods-TabletEventInspectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorTests.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorTests/Pods-TabletEventInspectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorUITests/Pods-TabletEventInspectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspector.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector.release.xcconfig"; sourceTree = "<group>"; };
+		BE2A0DB62F841B580044F812 /* TabletEventInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletEventInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2A0DC42F841B5B0044F812 /* TabletEventInspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletEventInspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2A0DCE2F841B5B0044F812 /* TabletEventInspectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletEventInspectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorTests.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorTests/Pods-TabletEventInspectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspector.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BE2A0DB82F841B580044F812 /* TabletEventInspector */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabletEventInspector;
+			sourceTree = "<group>";
+		};
+		BE2A0DC72F841B5B0044F812 /* TabletEventInspectorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabletEventInspectorTests;
+			sourceTree = "<group>";
+		};
+		BE2A0DD12F841B5B0044F812 /* TabletEventInspectorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabletEventInspectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2A0DB32F841B580044F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9C5422E35C68157F838CC3 /* Pods_TabletEventInspector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DC12F841B5B0044F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02312B81E1DAA6281E9C0FE /* Pods_TabletEventInspectorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DCB2F841B5B0044F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4A78FFB5969CA23AD98298 /* Pods_TabletEventInspectorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE48DEAD5681BCB86047412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */,
+				B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */,
+				4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */,
+				C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */,
+				6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */,
+				2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		872A6E2F06E43DA5CC705C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */,
+				A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */,
+				857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2A0DAD2F841B580044F812 = {
+			isa = PBXGroup;
+			children = (
+				BE2A0DB82F841B580044F812 /* TabletEventInspector */,
+				BE2A0DC72F841B5B0044F812 /* TabletEventInspectorTests */,
+				BE2A0DD12F841B5B0044F812 /* TabletEventInspectorUITests */,
+				BE2A0DB72F841B580044F812 /* Products */,
+				2CE48DEAD5681BCB86047412 /* Pods */,
+				872A6E2F06E43DA5CC705C90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2A0DB72F841B580044F812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A0DB62F841B580044F812 /* TabletEventInspector.app */,
+				BE2A0DC42F841B5B0044F812 /* TabletEventInspectorTests.xctest */,
+				BE2A0DCE2F841B5B0044F812 /* TabletEventInspectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2A0DB52F841B580044F812 /* TabletEventInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2A0DD82F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspector" */;
+			buildPhases = (
+				B2EFA6A3B4BF5B70899211B7 /* [CP] Check Pods Manifest.lock */,
+				BE2A0DB22F841B580044F812 /* Sources */,
+				BE2A0DB32F841B580044F812 /* Frameworks */,
+				BE2A0DB42F841B580044F812 /* Resources */,
+				EB2D12FAF84060AD5828239D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE2A0DB82F841B580044F812 /* TabletEventInspector */,
+			);
+			name = TabletEventInspector;
+			productName = TabletEventInspector;
+			productReference = BE2A0DB62F841B580044F812 /* TabletEventInspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2A0DC32F841B5B0044F812 /* TabletEventInspectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2A0DDB2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorTests" */;
+			buildPhases = (
+				7EB7FD37D35D1A9D1129BC73 /* [CP] Check Pods Manifest.lock */,
+				BE2A0DC02F841B5B0044F812 /* Sources */,
+				BE2A0DC12F841B5B0044F812 /* Frameworks */,
+				BE2A0DC22F841B5B0044F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2A0DC62F841B5B0044F812 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE2A0DC72F841B5B0044F812 /* TabletEventInspectorTests */,
+			);
+			name = TabletEventInspectorTests;
+			productName = TabletEventInspectorTests;
+			productReference = BE2A0DC42F841B5B0044F812 /* TabletEventInspectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE2A0DCD2F841B5B0044F812 /* TabletEventInspectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2A0DDE2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorUITests" */;
+			buildPhases = (
+				C0EA247C53E327A6D606D4D6 /* [CP] Check Pods Manifest.lock */,
+				BE2A0DCA2F841B5B0044F812 /* Sources */,
+				BE2A0DCB2F841B5B0044F812 /* Frameworks */,
+				BE2A0DCC2F841B5B0044F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2A0DD02F841B5B0044F812 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE2A0DD12F841B5B0044F812 /* TabletEventInspectorUITests */,
+			);
+			name = TabletEventInspectorUITests;
+			productName = TabletEventInspectorUITests;
+			productReference = BE2A0DCE2F841B5B0044F812 /* TabletEventInspectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2A0DAE2F841B580044F812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					BE2A0DB52F841B580044F812 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BE2A0DC32F841B5B0044F812 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BE2A0DB52F841B580044F812;
+					};
+					BE2A0DCD2F841B5B0044F812 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BE2A0DB52F841B580044F812;
+					};
+				};
+			};
+			buildConfigurationList = BE2A0DB12F841B580044F812 /* Build configuration list for PBXProject "TabletEventInspector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2A0DAD2F841B580044F812;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE2A0DB72F841B580044F812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2A0DB52F841B580044F812 /* TabletEventInspector */,
+				BE2A0DC32F841B5B0044F812 /* TabletEventInspectorTests */,
+				BE2A0DCD2F841B5B0044F812 /* TabletEventInspectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2A0DB42F841B580044F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DC22F841B5B0044F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DCC2F841B5B0044F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EB7FD37D35D1A9D1129BC73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EFA6A3B4BF5B70899211B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EA247C53E327A6D606D4D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2D12FAF84060AD5828239D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2A0DB22F841B580044F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DC02F841B5B0044F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2A0DCA2F841B5B0044F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2A0DC62F841B5B0044F812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2A0DB52F841B580044F812 /* TabletEventInspector */;
+			targetProxy = BE2A0DC52F841B5B0044F812 /* PBXContainerItemProxy */;
+		};
+		BE2A0DD02F841B5B0044F812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2A0DB52F841B580044F812 /* TabletEventInspector */;
+			targetProxy = BE2A0DCF2F841B5B0044F812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE2A0DD62F841B5B0044F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE2A0DD72F841B5B0044F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BE2A0DD92F841B5B0044F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE2A0DDA2F841B5B0044F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE2A0DDC2F841B5B0044F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletEventInspector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabletEventInspector";
+			};
+			name = Debug;
+		};
+		BE2A0DDD2F841B5B0044F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletEventInspector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabletEventInspector";
+			};
+			name = Release;
+		};
+		BE2A0DDF2F841B5B0044F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabletEventInspector;
+			};
+			name = Debug;
+		};
+		BE2A0DE02F841B5B0044F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.developer.TabletEventInspectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabletEventInspector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2A0DB12F841B580044F812 /* Build configuration list for PBXProject "TabletEventInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2A0DD62F841B5B0044F812 /* Debug */,
+				BE2A0DD72F841B5B0044F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2A0DD82F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2A0DD92F841B5B0044F812 /* Debug */,
+				BE2A0DDA2F841B5B0044F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2A0DDB2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2A0DDC2F841B5B0044F812 /* Debug */,
+				BE2A0DDD2F841B5B0044F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2A0DDE2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2A0DDF2F841B5B0044F812 /* Debug */,
+				BE2A0DE02F841B5B0044F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2A0DAE2F841B580044F812 /* Project object */;
+}
