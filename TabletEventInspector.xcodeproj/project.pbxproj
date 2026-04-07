@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F9C5422E35C68157F838CC3 /* Pods_TabletEventInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */; };
+		6D4A78FFB5969CA23AD98298 /* Pods_TabletEventInspectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */; };
+		A02312B81E1DAA6281E9C0FE /* Pods_TabletEventInspectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BE2A0DC52F841B5B0044F812 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorUITests.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorUITests/Pods-TabletEventInspectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorTests.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorTests/Pods-TabletEventInspectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorUITests/Pods-TabletEventInspectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspector.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector.release.xcconfig"; sourceTree = "<group>"; };
 		BE2A0DB62F841B580044F812 /* TabletEventInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletEventInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2A0DC42F841B5B0044F812 /* TabletEventInspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletEventInspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2A0DCE2F841B5B0044F812 /* TabletEventInspectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletEventInspectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspectorTests.release.xcconfig"; path = "Target Support Files/Pods-TabletEventInspectorTests/Pods-TabletEventInspectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabletEventInspector.debug.xcconfig"; path = "Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabletEventInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9C5422E35C68157F838CC3 /* Pods_TabletEventInspector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02312B81E1DAA6281E9C0FE /* Pods_TabletEventInspectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4A78FFB5969CA23AD98298 /* Pods_TabletEventInspectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE48DEAD5681BCB86047412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */,
+				B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */,
+				4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */,
+				C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */,
+				6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */,
+				2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		872A6E2F06E43DA5CC705C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8592A177E73602DB1F1D9 /* Pods_TabletEventInspector.framework */,
+				A4606BA62A2CAA46AF002648 /* Pods_TabletEventInspectorTests.framework */,
+				857F06462DFB78E1B5117C56 /* Pods_TabletEventInspectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE2A0DAD2F841B580044F812 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +120,8 @@
 				BE2A0DC72F841B5B0044F812 /* TabletEventInspectorTests */,
 				BE2A0DD12F841B5B0044F812 /* TabletEventInspectorUITests */,
 				BE2A0DB72F841B580044F812 /* Products */,
+				2CE48DEAD5681BCB86047412 /* Pods */,
+				872A6E2F06E43DA5CC705C90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE2A0DD82F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspector" */;
 			buildPhases = (
+				B2EFA6A3B4BF5B70899211B7 /* [CP] Check Pods Manifest.lock */,
 				BE2A0DB22F841B580044F812 /* Sources */,
 				BE2A0DB32F841B580044F812 /* Frameworks */,
 				BE2A0DB42F841B580044F812 /* Resources */,
+				EB2D12FAF84060AD5828239D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				BE2A0DB82F841B580044F812 /* TabletEventInspector */,
 			);
 			name = TabletEventInspector;
-			packageProductDependencies = (
-			);
 			productName = TabletEventInspector;
 			productReference = BE2A0DB62F841B580044F812 /* TabletEventInspector.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE2A0DDB2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorTests" */;
 			buildPhases = (
+				7EB7FD37D35D1A9D1129BC73 /* [CP] Check Pods Manifest.lock */,
 				BE2A0DC02F841B5B0044F812 /* Sources */,
 				BE2A0DC12F841B5B0044F812 /* Frameworks */,
 				BE2A0DC22F841B5B0044F812 /* Resources */,
@@ -134,8 +178,6 @@
 				BE2A0DC72F841B5B0044F812 /* TabletEventInspectorTests */,
 			);
 			name = TabletEventInspectorTests;
-			packageProductDependencies = (
-			);
 			productName = TabletEventInspectorTests;
 			productReference = BE2A0DC42F841B5B0044F812 /* TabletEventInspectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE2A0DDE2F841B5B0044F812 /* Build configuration list for PBXNativeTarget "TabletEventInspectorUITests" */;
 			buildPhases = (
+				C0EA247C53E327A6D606D4D6 /* [CP] Check Pods Manifest.lock */,
 				BE2A0DCA2F841B5B0044F812 /* Sources */,
 				BE2A0DCB2F841B5B0044F812 /* Frameworks */,
 				BE2A0DCC2F841B5B0044F812 /* Resources */,
@@ -157,8 +200,6 @@
 				BE2A0DD12F841B5B0044F812 /* TabletEventInspectorUITests */,
 			);
 			name = TabletEventInspectorUITests;
-			packageProductDependencies = (
-			);
 			productName = TabletEventInspectorUITests;
 			productReference = BE2A0DCE2F841B5B0044F812 /* TabletEventInspectorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +271,96 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EB7FD37D35D1A9D1129BC73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EFA6A3B4BF5B70899211B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EA247C53E327A6D606D4D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabletEventInspectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2D12FAF84060AD5828239D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabletEventInspector/Pods-TabletEventInspector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE2A0DB22F841B580044F812 /* Sources */ = {
@@ -306,7 +437,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +500,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -389,6 +520,7 @@
 		};
 		BE2A0DD92F841B5B0044F812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C959419F2A4F4F678F6D58B4 /* Pods-TabletEventInspector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +552,7 @@
 		};
 		BE2A0DDA2F841B5B0044F812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76B07A61384A17BBBFA033D /* Pods-TabletEventInspector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +584,7 @@
 		};
 		BE2A0DDC2F841B5B0044F812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4265B4D84C339AEA8826C86A /* Pods-TabletEventInspectorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +605,7 @@
 		};
 		BE2A0DDD2F841B5B0044F812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C574CA43148432EB4F558017 /* Pods-TabletEventInspectorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +626,7 @@
 		};
 		BE2A0DDF2F841B5B0044F812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5266E6980D3619D0D995F5 /* Pods-TabletEventInspectorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +645,7 @@
 		};
 		BE2A0DE02F841B5B0044F812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8D90CFA6D79C42454A2138 /* Pods-TabletEventInspectorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
