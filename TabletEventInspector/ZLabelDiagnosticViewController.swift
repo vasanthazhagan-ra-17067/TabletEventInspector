@@ -99,6 +99,13 @@ final class ZLabelDiagnosticViewController: NSViewController {
         return b
     }()
 
+    private let resetButton: NSButton = {
+        let b = NSButton(title: "Reset", target: nil, action: nil)
+        b.bezelStyle = .rounded
+        b.translatesAutoresizingMaskIntoConstraints = false
+        return b
+    }()
+
     // MARK: - State tracking
 
     private var currentTapSequence: [(String, Float)] = []   // (sourceMethod, pressure)
@@ -204,7 +211,7 @@ final class ZLabelDiagnosticViewController: NSViewController {
             resultHeader, tapResultLabel,
             seqHeader, seqScroll,
             dragCountLabel, dragFlagRow,
-            revealLogButton
+            revealLogButton, resetButton
         ]
         arranged.forEach { mainStack.addArrangedSubview($0) }
 
@@ -260,6 +267,8 @@ final class ZLabelDiagnosticViewController: NSViewController {
         copyDeviceInfoButton.action = #selector(copyDeviceInfo)
         revealLogButton.target = self
         revealLogButton.action = #selector(revealLog)
+        resetButton.target = self
+        resetButton.action = #selector(resetState)
     }
 
     // MARK: - Tap sequence tracking
@@ -386,6 +395,19 @@ final class ZLabelDiagnosticViewController: NSViewController {
 
     @objc private func revealLog() {
         NSWorkspace.shared.activateFileViewerSelecting([EventLogger.shared.logFilePublicURL])
+    }
+
+    @objc private func resetState() {
+        currentTapSequence = []
+        dragCountInTap = 0
+        isDragFlagSet = false
+        tapInProgress = false
+
+        tapResultLabel.stringValue = "—"
+        tapResultLabel.textColor = .labelColor
+        sequenceTextView.string = ""
+        dragCountLabel.stringValue = "Drag events in last tap: 0"
+        updateDragFlagBadge(false)
     }
 
     // MARK: - Factory helpers
