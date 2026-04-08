@@ -21,7 +21,6 @@ struct TabletEventRecord: Codable {
     let locationY: CGFloat
     let vendorID: Int
     let tabletID: Int
-    let pointingDeviceSerialNumber: Int
     let pointingDeviceID: Int
 
     // MARK: - Helpers
@@ -80,7 +79,6 @@ struct TabletEventRecord: Codable {
             locationY: loc.y,
             vendorID: knownVendorID,
             tabletID: knownTabletID,
-            pointingDeviceSerialNumber: Int(event.pointingDeviceSerialNumber),
             pointingDeviceID: Int(event.pointingDeviceID)
         )
     }
@@ -104,7 +102,6 @@ struct TabletEventRecord: Codable {
             locationY: loc.y,
             vendorID: Int(event.vendorID),
             tabletID: Int(event.tabletID),
-            pointingDeviceSerialNumber: Int(event.pointingDeviceSerialNumber),
             pointingDeviceID: Int(event.pointingDeviceID)
         )
     }
@@ -148,7 +145,6 @@ struct TabletEventRecord: Codable {
             locationY: locY,
             vendorID: knownVendorID,
             tabletID: knownTabletID,
-            pointingDeviceSerialNumber: 0,
             pointingDeviceID: 0
         )
     }

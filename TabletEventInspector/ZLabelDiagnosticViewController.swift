@@ -15,7 +15,6 @@ final class ZLabelDiagnosticViewController: NSViewController {
 
     private let vendorLabel     = makeMono("Vendor ID: —")
     private let tabletLabel     = makeMono("Tablet ID: —")
-    private let serialLabel     = makeMono("Serial: —")
     private let deviceTypeLabel = makeMono("Device Type: —")
     private let proximityLabel  = makeMono("Proximity: —")
 
@@ -115,7 +114,6 @@ final class ZLabelDiagnosticViewController: NSViewController {
     // Proximity info
     private var lastVendorID: Int = 0
     private var lastTabletID: Int = 0
-    private var lastSerial: Int = 0
     private var lastDeviceType: String = "—"
 
     private var localMonitor: Any?
@@ -191,7 +189,7 @@ final class ZLabelDiagnosticViewController: NSViewController {
         let sep3 = separator()
 
         // ---- Device info sub-stack ----
-        let deviceStack = NSStackView(views: [vendorLabel, tabletLabel, serialLabel,
+        let deviceStack = NSStackView(views: [vendorLabel, tabletLabel,
                                               deviceTypeLabel, proximityLabel, copyDeviceInfoButton])
         deviceStack.orientation = .vertical
         deviceStack.alignment = .leading
@@ -370,12 +368,10 @@ final class ZLabelDiagnosticViewController: NSViewController {
     private func handleProximityEvent(_ event: NSEvent) {
         lastVendorID = Int(event.vendorID)
         lastTabletID = Int(event.tabletID)
-        lastSerial = Int(event.pointingDeviceSerialNumber)
         lastDeviceType = TabletEventRecord.deviceTypeString(from: event)
 
         vendorLabel.stringValue     = "Vendor ID: \(lastVendorID)"
         tabletLabel.stringValue     = "Tablet ID: \(lastTabletID)"
-        serialLabel.stringValue     = "Serial: \(lastSerial)"
         deviceTypeLabel.stringValue = "Device Type: \(lastDeviceType)"
         proximityLabel.stringValue  = "Entering Proximity: \(event.isEnteringProximity)"
     }
@@ -386,7 +382,6 @@ final class ZLabelDiagnosticViewController: NSViewController {
         let info = """
         Vendor ID: \(lastVendorID)
         Tablet ID: \(lastTabletID)
-        Serial: \(lastSerial)
         Device Type: \(lastDeviceType)
         """
         NSPasteboard.general.clearContents()
